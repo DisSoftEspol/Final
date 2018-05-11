@@ -88,7 +88,7 @@ public class GameView extends JComponent {
 	public void paintComponent(final Graphics g) {
 		// Check if we have a running game
 		super.paintComponent(g);
-		g.setColor(Color.lightGray);//CAMBIO EL COLOR DE FONDO
+		g.setColor(Color.cyan);//CAMBIO EL COLOR DE FONDO
 		g.fillRect(0, 0, getWidth(), getHeight());
 
 		if (this.model != null) {
