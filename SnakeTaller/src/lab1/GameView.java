@@ -33,7 +33,7 @@ public class GameView extends JComponent {
 	 * Creates a view where each GameObject has side length 40 pixels..
 	 */
 	public GameView() {
-		this(40);
+		this(15);//CAMBIO EL TAMAÑO A 15
 	}
 
 	/**
@@ -88,7 +88,7 @@ public class GameView extends JComponent {
 	public void paintComponent(final Graphics g) {
 		// Check if we have a running game
 		super.paintComponent(g);
-		g.setColor(this.getBackground());
+		g.setColor(Color.lightGray);//CAMBIO EL COLOR DE FONDO
 		g.fillRect(0, 0, getWidth(), getHeight());
 
 		if (this.model != null) {
