@@ -119,7 +119,9 @@ public class SnakeModel extends GameModel {
 		// Insert the fruits to the game board.
 		for(int i = 0; i < FRUIT_AMOUNT; i++){
 			if(blankTilesExists()){
-				addFruit();			
+				addFruit();	
+                                addFruit();
+                                addFruit();
 			}
 		}
 
